@@ -57,11 +57,7 @@ if (isset($_FILES['image']) && $_FILES['image']['error'] === 0) {
         <section>
             <h1>
                 <?php 
-                    /* if (isset($sent) && $sent) {
 
-                        echo '<img src="uploads/'.$newImageName.'" alt="file shared" style="max-width: 75%">';
-
-                    } */
                     if (isset($sent) && $sent) { ?>
 
                         <img src="uploads/<?= $newImageName ?>" alt="file shared" style="max-width: 75%">
